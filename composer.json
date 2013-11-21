@@ -1,0 +1,17 @@
+{
+    "name": "itaw/modern-board",
+    "description": "A Modern, Object-Oriented Board Software",
+    "authors": [
+        {
+            "name": "Florian Weber",
+            "email": "florian.weber.dd@me.com"
+        }
+    ],
+    "require": {
+        "symfony/routing": "2.4.*@dev",
+        "twig/twig": "1.15.*@dev",
+        "symfony/http-kernel": "2.2.*@dev",
+        "symfony/yaml": "2.4.*@dev",
+        "symfony/config": "2.4.*@dev"
+    }
+}
