@@ -3,7 +3,7 @@
         "This file locks the dependencies of your project to a known state",
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
     ],
-    "hash": "2193ae592c107c7c1e6cec4ceb99d9d0",
+    "hash": "33dcf12c1b7528a6eccd2caa39bbf626",
     "packages": [
         {
             "name": "psr/log",
@@ -97,6 +97,63 @@
             "description": "Symfony Debug Component",
             "homepage": "http://symfony.com",
             "time": "2014-01-01 09:02:49"
+        },
+        {
+            "name": "symfony/dependency-injection",
+            "version": "dev-master",
+            "target-dir": "Symfony/Component/DependencyInjection",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/DependencyInjection.git",
+                "reference": "b89bbf343b42b0118364efc5c300e3c0bc7d86f2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/DependencyInjection/zipball/b89bbf343b42b0118364efc5c300e3c0bc7d86f2",
+                "reference": "b89bbf343b42b0118364efc5c300e3c0bc7d86f2",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.3"
+            },
+            "require-dev": {
+                "symfony/config": "~2.2",
+                "symfony/expression-language": "~2.4",
+                "symfony/yaml": "~2.0"
+            },
+            "suggest": {
+                "symfony/config": "",
+                "symfony/proxy-manager-bridge": "Generate service proxies to lazy load them",
+                "symfony/yaml": ""
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.5-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "Symfony\\Component\\DependencyInjection\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Fabien Potencier",
+                    "email": "fabien@symfony.com"
+                },
+                {
+                    "name": "Symfony Community",
+                    "homepage": "http://symfony.com/contributors"
+                }
+            ],
+            "description": "Symfony DependencyInjection Component",
+            "homepage": "http://symfony.com",
+            "time": "2014-01-01 09:16:05"
         },
         {
             "name": "symfony/event-dispatcher",
@@ -627,7 +684,8 @@
         "twig/twig": 20,
         "symfony/twig-bridge": 20,
         "symfony/http-kernel": 20,
-        "symfony/yaml": 20
+        "symfony/yaml": 20,
+        "symfony/dependency-injection": 20
     },
     "platform": {
         "php": ">=5.3.3"

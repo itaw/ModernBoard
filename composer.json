@@ -7,6 +7,9 @@
             "email": "florian.weber.dd@me.com"
         }
     ],
+    "autoload": {
+        "psr-4": {"ModernBoard\\": "src/"}
+    },
     "require": {
         "php": ">=5.3.3",
         "symfony/routing": "2.3.*@dev",
@@ -14,6 +17,7 @@
         "twig/twig": "1.15.*@dev",
         "symfony/twig-bridge": "2.5.*@dev",
         "symfony/http-kernel": "2.4.*@dev",
-        "symfony/yaml": "2.5.*@dev"
+        "symfony/yaml": "2.5.*@dev",
+        "symfony/dependency-injection": "2.5.*@dev"
     }
 }
