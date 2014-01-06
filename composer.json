@@ -1,0 +1,13 @@
+{
+    "name": "itaw/modern-board",
+    "description": "A Modern, Object Oriented Board Software",
+    "authors": [
+        {
+            "name": "Florian Weber",
+            "email": "florian.weber.dd@me.com"
+        }
+    ],
+    "require": {
+
+    }
+}
